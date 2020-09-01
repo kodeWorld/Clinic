@@ -1,0 +1,153 @@
+/*
+=============== 
+Fonts
+===============
+*/
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+.navbar {
+	place-content: center;
+    text-transform: capitalize;
+    justify-content: space-between;
+    padding: 0rem 5rem;
+	background-color: olivedrab;
+}
+
+
+
+/*================
+	Header
+  ================*/
+
+  /* .megamenu .nav
+  .megamenu	.collapse
+  .megamenu	.dropup
+  .megamenu	.dropdown {
+	  position: static;
+  }
+  .megamenu .container-fluid {
+	  position: relative;
+  } */
+
+  /*===============
+	  slider
+	===============*/
+	  /*.slider-bg-one {
+		background-image: url("baby.jpg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	  }
+	  .slider-bg-two {
+		background-image: url("mask.jpg.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	  }
+	  .slider-content-area {
+		height: 400px;
+		
+	}
+
+	.home-one-slider-item .slider-content-area {
+		height: 400px;
+		position: static;
+	}
+	
+	.slide-text {
+		position: absolute;
+		top: 40%;
+		transform: translateY(-50%);
+		width: 100%;
+		z-index: 1;
+	}
+	*/
+	
+		
+
+
+/* 	================
+	Carousel
+	================*/
+
+	.carousel-inner {
+		height: 500px;
+		position: static;
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.carousel-caption{
+		top: 40%;
+		transform: translateY(-50%);
+		width: 100%;
+		z-index: 1;
+	}
+	
+.carousel-caption h1{
+	text-align: left;
+	font-size: 40px;
+	font-weight: 200;
+	top: 40%;	
+	line-height: normal;
+}
+
+
+/* ===================
+   Top Head
+
+	==================*/
+	.top-bar{
+		background: #393939;
+	}
+	.left-top{
+		padding: 3px 0px; 
+	}
+	.email-box{
+		display: inline-block;
+		margin-right: 20px;
+	}
+	.email-box a{
+		color: #ffffff;
+		font-size: 18px;
+	}
+	.email-box a:hover{
+		color: #f92d8c;
+	}
+	.email-box a i{
+		padding: 0px 10px;
+	}
+	.phone-box{
+		display: inline-block;
+	}
+	
+	.phone-box a{
+		color: #ffffff;
+		font-size: 18px;
+	}
+	.phone-box a:hover{
+		color: #f92d8c;
+	}
+	.phone-box a i{
+		padding: 0px 10px;
+	}
+	
+	.social-box{
+		float: right;
+	}
+	
+	.social-box ul li{
+		display: inline-block;
+		padding-left: 10px;
+	}
+	
+	.social-box ul li a{
+		color: #ffffff;
+		font-size: 20px;
+	}
+	.social-box ul li a:hover{
+		color: #f92d8c;
+		
+	}
+	
